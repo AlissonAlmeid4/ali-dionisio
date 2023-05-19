@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+  }
+body{
+    background-color: #F8F9FA;
+}
+
+.disposicaoDate h1{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+.disposicaoDate{
+    color: rgb(0, 0, 0);
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    text-align: center;
+}
+.marcaEvento, form{
+    display: flex;
+    justify-content: center;
+}
+.dataHora2{
+    display:inline-grid;
+    margin-left: 4%;
+}
+#data, #horaInicio, #horaTermino{
+    width: 14rem;
+    border-color: #1484FC;
+}
+#quadro{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+#state{
+    margin-top: 1vw;
+    text-align: center ;
+}
+a{
+    text-decoration:white;
+}
+.titSalao{
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+   
+}
+.esquerda{
+    position: absolute;
+    left: 20%;
+
+}
+.direita{
+    margin-top: 2vw;
+    display: flex;
+    margin-right: -40%;  
+}
+.direita p{
+    color: #808080;
+}
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.salaoLista{
+    width: 80%;
+    margin: 0 auto;    
+}
+.titEventos{
+    text-align: center;
+    padding: 20px;   
+}
+#consuhisto{
+    display: flex;
+    float: right;
+}
+.tittabela{
+    background: #1484FC;
+    color: white;
+}
+.linha{
+    color: #1484FC;
+}
+dl, ol, ul {
+    margin-bottom: 0rem !important;
+}
+ol,
+ul {
+    padding-left: 0rem !important;
+}
+strong{
+    display: none;
+}
+.barraLateral{
+    display: none;
+}
+@media screen and (max-width: 480px) {
+    .barraLateral{
+        display: flex;
+    }
+    .esquerda{
+        position:static;
+        text-align: center;
+    }
+    .direita{
+        margin-top: 2vw;
+        display: flex;
+        margin-right: -0%;  
+    }
+    #consuhisto{
+        display: flex;
+        float:unset;
+    }
+    .titSalao{
+        margin-top: 2vw;
+        display:inline;
+        justify-content: center;
+        justify-items: center;
+       
+    }
+    .marcaEvento, form {
+        display: unset;
+        justify-content: center;
+    }
+    .dataHora2{
+        margin-left: 0%;
+    }
+    #data, #horaInicio, #horaTermino{
+        width: 14rem;
+        border-color: #1484FC;
+    }
+
+
+    .salaoLista{
+        width: 100%;
+        margin: 0 auto;    
+    }
+    th{
+        display: none;
+    }
+    td{
+        font-size: small;
+        display: flex;
+        justify-content: center;
+    }
+    td .btn{
+        font-size: small;
+        width: 30%;
+        margin-left: 15px;
+
+    }
+    strong{
+        display: block;
+        position: absolute;
+        left: 10px;
+    }
+}

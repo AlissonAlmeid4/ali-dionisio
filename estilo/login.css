@@ -1,0 +1,91 @@
+/* Login */
+    p, h1,h2, a, input{
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .lados{
+        display: flex;
+    }
+    .ladoDireito{
+        width: 50%;
+    }    
+    .ladoEsquerdo{
+        width: 50%;
+        display: flex;    
+        justify-content:center;
+        margin: 0 auto;
+    }
+    .ladoEsquerdo h2{
+        margin-top: 10%;
+    }
+    .emCima{
+        height: 70%;
+        margin-top: 10%;
+
+    }
+    .emCima p{
+        font-size: 12pt;
+        color: #808080;
+    }
+    #usuario, #senha{
+        padding: 10px 20px;
+        background: none;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+    }
+    .borda{
+        border: 1px solid #1484fc;
+        padding: 10px;
+        margin-top: 15px;
+        width: 50%;
+    }
+    .esqueciSenha{
+        padding: 20px 0;
+        color: #B571FF;
+    }
+    .esqueciSenha a{
+        text-decoration-line: none;
+    }
+    .botoes input{
+        background-color: #1484FC;
+        padding: 10px 40px;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .botoes input:hover{
+        background-color: #4a9df5;
+
+    }
+    .emBaixo{
+        height: 50%;
+    }
+    body{
+        background-color: #F8F9FA;
+        background-repeat: no-repeat;    
+        background-size: 100vw 100vh;
+        background-position: top;
+        background-attachment: fixed;
+    }
+
+    @media screen and (max-width: 481px) {
+        .ladoEsquerdo{
+            display: none;    
+        }
+        .ladoCima{
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+        .ladoDireito{
+            width: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        .borda{
+            width: 100%;
+        }
+
+    }

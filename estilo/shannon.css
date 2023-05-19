@@ -1,0 +1,303 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Ubuntu', sans-serif  !important;
+ 
+}
+body {
+  background-color: #f8f9fa;
+ 
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/*PARA QUEBRAR O FLOAT*/
+.clear {
+  clear: both;
+}
+
+/*FORMATAÇÃO DA PÁGINA*************************/
+.nav_bar {
+  background: #b571ff;
+  height: 100px;
+}
+
+#page_body {
+  /*FORMATAÇÃO DO CORPO DA PÁGINA*/
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*FORMATAÇAO DAS TAGS*********************************/
+.links {
+  padding-top: 40px;
+  padding-left: 220px;
+  color: white;
+}
+
+.link {
+  padding: 0px 10px;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  color: white;
+}
+hr {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: solid 3px #b571ff;
+}
+#logo {
+  padding: 15px;
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+#page_body > h1 {
+  text-align: center;
+  background-color: #d1e892;
+}
+
+#img_slider {
+  width: 800px;
+  height: 400px;
+}
+.imagens {
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+}
+
+#img_sobre_nos {
+  height: 200px;
+  width: 450px;
+  float: left;
+  padding-right: 30px;
+ 
+}
+
+#sobre_nos p {
+  text-align: justify;
+}
+
+.condmind_texto {
+  background-color: white;
+  height: 500px;
+  width: 800px;
+  float: left;
+}
+
+.condmind_texto h3,
+h4 {
+  font-size: 2em;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.condmind_imagem {
+  background-color: white;
+  padding-left: 100px;
+  height: 500px;
+  width: 691.2px;
+  float: right;
+}
+
+.saber_mais {
+  text-align: center;
+  text-decoration: none;
+  color: #1484fc;
+  font-size: 25px;
+  font: bold;
+}
+.saber_mais a {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.footer {
+  height: 210px;
+  width: 100%;
+  background-color: #b571ff;
+}
+
+#footer_img {
+  width: 100px;
+  height: 100px;
+  margin: 40px 0 0 30px;
+  float: left;
+}
+
+.rua_matriz {
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+  font-size: 16px;
+}
+#copy {
+  padding: 25px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+.nome{
+    padding: 10px;
+    height: 80px;
+    width: 100%;
+    border: #1484fc solid 1px;
+    float: left;
+}
+.ultimo_nome{
+    padding: 10px;
+    height: 80px;
+    width: 45%;
+    border: #1484fc solid 1px;
+    float: right;
+}
+input{
+    border: none;
+    background: none;
+    outline: 0;
+    width: 100%;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  select{
+     background: none;
+    border: none;
+    outline: 0;
+  }
+
+
+.email ,.telefone,.assunto{
+    padding: 10px;
+    height: 80px;
+   margin-top: 20px;
+    border: #1484fc solid 1px;
+  }
+  .mensagem{
+    padding: 20px;
+    height: 230px;
+   margin-top: 20px;
+    border: #1484fc solid 1px;
+  }
+
+  textarea{
+    resize: none;
+    height: 150px;
+    width: 100%;
+    border: none;
+    background: none;
+    outline: 0;
+  }
+
+  #btn_contato{
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin: 20px 0 80px 0;
+    height: 50px;
+    width: 200px;
+    background-color: #1484fc;
+    transition: 1s;
+    float: left;
+  }
+
+  #btn_contato:hover{
+    transition: 1s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  #titulo_fale,#titulo_cond,#titulo_sobre{
+    border-bottom: #b571ff dotted 4px;
+    margin: 50px 0 25px 0;
+  }
+  
+.links a{
+color: white;
+}
+  #icon_footer{
+    float: right;
+    margin-right: 40px;
+  }
+
+  .link_footer {
+    margin-bottom: 50px;
+    padding: 0;
+    width: 5px ;
+  }
+  .img_f{
+    margin: 0 4px;
+    height: 20px;
+    width: 20px;
+  }
+ 
+  .enviado{
+    
+    width: 200px;
+    height: 20px;
+    padding-left: 30px;
+    margin-top: 30px;
+    float: left;
+    
+  }
+
+  #slogan{
+    font-family: 'Federo', sans-serif;
+  }
+  .barraLateral{
+    display: none;
+}
+@media screen and (max-width: 480px) {
+  .barraLateral{
+    display: flex;
+}
+.barraLateral{
+  display: flex;
+}
+.links {
+padding-top: 5vw;
+padding-left: 0;
+}
+#img_slider {
+  width: 100px;
+  height: 400px;
+}
+
+.imagens {
+  margin: 0 auto;
+  width: 291px;
+  height: 200px;
+}
+
+#img_sobre_nos {
+  height: 200px;
+  width: 291px;
+  float: left;
+  padding-right: 30px;
+
+}
+.condmind_texto {
+  height: 500px;
+  width: 291px;
+}
+.condmind_texto {
+  height: 500px;
+  width: 291px;
+}
+
+.condmind_imagem img {
+  height: 500px;
+  width: 20rem;
+  margin-left: 18rem;
+}
+}

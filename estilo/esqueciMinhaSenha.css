@@ -1,0 +1,173 @@
+/* Esqueci minha senha */
+
+
+
+   body {
+       background-color: #F8F9FA;
+       background-repeat: no-repeat;
+       background-size: 100vw 100vh;
+       background-position: top;
+       background-attachment: fixed;
+   }
+ /* Login */
+ p,
+ h1,
+ h2,
+ a,
+ input {
+     font-family: 'Ubuntu', sans-serif;
+ }
+
+ .lados {
+     display: flex;
+ }
+
+ .ladoDireito {
+     width: 50%;
+ }
+
+ .ladoEsquerdo {
+     width: 50%;
+     display: flex;
+     justify-content: center;
+     margin: 0 auto;
+ }
+
+ .ladoEsquerdo h2 {
+     margin-top: 20%;
+ }
+
+ .emCima {
+     height: 70%;
+     margin-top: 20%;
+
+ }
+
+ .emCima p {
+     font-size: 12pt;
+     color: #808080;
+ }
+
+ #cpf{
+     padding: 10px 20px;
+     background: none;
+     box-shadow: 0 0 0 0;
+     border: 0 none;
+     outline: 0;
+ }
+
+ .borda {
+     border: 1px solid #1484fc;
+     padding: 10px;
+     margin-top: 15px;
+     width: 50%;
+ }
+
+ .botoes input {
+     background-color: #1484FC;
+     padding: 10px 40px;
+     border: none;
+     color: white;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+
+ .botoes input:hover {
+     background-color: #4a9df5;
+
+ }
+
+ .emBaixo {
+     height: 50%;
+ }
+#esqueciMinhaSenha{
+    margin-top: 10px;
+}
+
+/* 
+ .mensagemLogin {
+     text-align: center;
+     font-weight: bold;
+ }
+.login {
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    width: 300px;
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background: rgba(54, 6, 6, 0.5)
+}
+
+.login p {
+    color: white;
+    font-weight: bold;
+}
+
+.login input {
+    float: right;
+    border-radius: 10px;
+    height: 20px;
+    width: 200px;
+    padding: 2px 5px;
+}
+
+.login h1 {
+    color: white;
+    text-align: center;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+}
+
+#esqueciMinhaSenha {
+    margin-top: 1rem;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+#esqueciMinhaSenha:hover {
+    background: #1484fc;
+}
+
+.login button {
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+    width: 120px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background: rgb(228, 228, 204);
+}
+
+.logo img {
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.esqueciMinhaSenha {
+    display: flex;
+    justify-content: center;
+}
+
+.esqueciMinhaSenha a {
+    color: white;
+}
+
+.esqueciMinhaSenha a:hover {
+    color: rgba(255, 255, 255, 0.856);
+} */

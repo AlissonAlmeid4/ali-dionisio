@@ -1,0 +1,161 @@
+p,
+h1,
+h2,
+a,
+input,
+label,
+button{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.pesquisar{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #B571FF;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 95%;
+    padding: 0.5vw 0vw;
+}
+.pesquisar p{
+    margin-top: 10px;
+    color: white;
+}
+.pesquisar p input{
+    border-radius: 10px;
+    border: none;
+    padding: 5px 50px;
+}
+.cadastrar{
+    display: flex;
+    justify-content: center;
+    background-color: #B571FF;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    padding: 0.5vw;
+}
+.cadastrar a{
+    color: white;
+    text-decoration: none;
+}
+#result{
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding: 10px;
+}
+.box1{
+    width: 30%;
+    margin: 0 auto;
+    padding: 0 30px ;
+    border: 1px solid #1484FC;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+}
+.alterarExcluir{
+    display: flex;
+    justify-content: space-around;
+}
+.alterarExcluir a{
+    color: black;
+    text-decoration: none;
+}
+.risco{
+    border-top: 3px solid white;
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.caixaImagem{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.imgUsuario {
+    max-width: 150px;
+}
+.cod{
+    text-align: center;
+    color: black;
+}
+.alterar{
+    background-color: #1484FC;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.alterar a{
+    color: white;
+}
+.excluir{
+    background-color: #F70101;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.excluir a{
+    color: white;
+}
+#result .box1{
+    width: 39%;
+}
+/* #result img {
+    max-width: 150px;
+}
+
+#result .box1 {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+#result .caixaImagem {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+} */
+.barraLateral{
+    display: none;
+}
+@media screen and (max-width: 480px) {
+    .barraLateral{
+        display: flex;
+    }
+    .cadastrar{
+        width: 60%;
+    }
+    .pesquisar{
+        margin-bottom: 20px;
+    }
+    .box1 {
+        width: 70%;
+        padding: 0px;
+    }
+    .excluir, .alterar{
+        padding: 10px 40px;
+
+    }
+
+}
+
+.paginacao{
+    margin-bottom: 50px;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+

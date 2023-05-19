@@ -1,0 +1,36 @@
+.logo{
+    max-width: 10rem;
+    margin-bottom: 2rem;
+}
+li button{
+    width: 15rem;
+}
+body{
+    background-repeat: no-repeat;    
+    background-size: 100vw 100vh;
+    background-position: top;
+    background-attachment: fixed;
+}
+.opcoes{
+    position: absolute;
+    bottom: 1rem;
+    left: 4rem;
+}
+
+.cad222 .form-control {
+    width: 30rem !important;
+
+}
+hr {
+    color:transparent !important;
+}
+
+@media screen and (max-width: 480px) {
+
+    .opcoes{
+        position:static;
+        bottom: 0rem;
+        left: 0rem;
+    }
+  
+}
