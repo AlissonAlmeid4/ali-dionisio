@@ -1,0 +1,21 @@
+<h2>Pipes
+<ul>
+    <li>
+        date: {{date() | date : 'dd/MM/yyyy'}}
+    </li>
+    <li>
+        uppercase: {{ 'Alisson Almeida' | uppercase}}
+    </li>
+    <li>
+        Loading: {{loadingData$ | async }}
+    </li>
+    <li>
+        currency: {{ 200.5 | currency : "BRL" }}
+    </li>
+    <li>
+        number: {{2000.5544 | number : "1.1-1" }}
+    </li>
+    <li>
+        percent: {{0.155 | percent : "1.0-4" }}
+    </li>
+    
