@@ -13,3 +13,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .c-gray{color:var(--gray-color)}
 
 .hover:hover{cursor: pointer;}
+
+.mat-mdc-progress-spinner circle{
+    stroke: var(--primary-color) !important;
+}

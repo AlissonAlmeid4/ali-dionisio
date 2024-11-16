@@ -8,16 +8,14 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent {
 
-  userName: String;
+  userName: string;
 
-  constructor(private rota: Router) {
-
-  }
+  constructor(private rota: Router) {}
 
   login(){
-    sessionStorage.setItem("user", "this.userName");
+    sessionStorage.setItem('user', this.userName);
 
-    this.rota.navigate(["home"]);
+    this.rota.navigate(['home']);
   }
 
 }

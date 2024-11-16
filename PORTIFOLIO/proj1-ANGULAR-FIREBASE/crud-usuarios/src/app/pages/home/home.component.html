@@ -5,24 +5,27 @@
         <!-- Lado Esquerdo da tela -->
         <div class="col-12 col-lg-9">
             <div class="card-info">
+                <div class="row">
+
                 <div class="col-12 col-md-8">
-                    <h1>Crud Usuários</h1>
-                    <h3>Mais eficiência na gestão dos <span>usuários</span> e de seus benefícios.
+                    <h1 class="titulo">Crud Usuários</h1>
+                    <h3 class="subtitulo">Mais eficiência na gestão dos <span>usuários</span> e de seus benefícios.
                         Chega de sistemas antigos e sem usabilidade, agora com o <span>Crud Users</span> seu trabalho fica
                         até 3x mais rápido e simplificado. <br>
                         Confira um resumo das informações em nosso <span>Dashboard</span></h3>
                 
                         <app-button textButton="Iniciar" routerLink="/usuarios"></app-button>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="../../../assets/dashboard.png" width="100%">
+                    </div>
                 </div>
-                <div class="col-12 col-md-4">
-                    <img src="../../../assets/dashboard.png" width="100%">
                 </div>
-            </div>
 
                 <div class="row mt-4">
                 <!-- Card Esqueda -->
                     <div class="col-6">
-                        <div class="cad-info">
+                        <div class="card-info">
                             <div class="row">
                                 <div class="col-8">
                                     <p class="texto-card">Total de usuários cadastrados no sistema</p>
@@ -39,7 +42,7 @@
                     </div>
                     <!-- Card Direita -->
                     <div class="col-6">
-                        <div class="cad-info">
+                        <div class="card-info">
                             <div class="row">
                                 <div class="col-8">
                                     <p class="texto-card">Total de benefícios cadastrados</p>
@@ -75,10 +78,10 @@
         <div class="col-12 col-lg-3">
             <div class="card-info">
                 <div class="container-perfil">
-                    <img src="../../../assets/imagem.png" class="imagem-perfil" width="90px">
+                    <img src="../../../assets/imagem.png" class="img-perfil" >
                     <h4>Seja Bem Vindo</h4>
-                    <h5>Alisson Almeida</h5>
-                    <li> <mat-icon>location_on</mat-icon> SP - Brasil</li>
+                    <h5>{{ userName }}</h5>
+                    <li class="location"> <mat-icon>location_on</mat-icon> SP - Brasil</li>
                 </div>
                 <hr class="hr">
                 <p class="texto-p">
