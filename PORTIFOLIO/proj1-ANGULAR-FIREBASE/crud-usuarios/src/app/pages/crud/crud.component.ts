@@ -57,6 +57,14 @@ export class CrudComponent {
     });
   }
 
+  deleteUser(firebaseId: string){
+    this.usersService.deleteUser(firebaseId).then(
+      (response: any) => {
+        window.alert('Usuário excluído com sucesso')
+      }
+    );
+  }
+
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataSource.filter = filterValue.trim().toLowerCase();
@@ -79,7 +87,17 @@ export class CrudComponent {
   openModalAddUser(){
     this.dialog.open(ModalFormUserComponent, {
       width: '700px',
-      height: '400px'
+      height: '410px'
     }).afterClosed().subscribe(() => this.getListUsers);
   }
+
+  openModalEditUser(user: User){
+    this.dialog.open(ModalFormUserComponent, {
+      width: '700px',
+      height: '410px',
+      data: user
+    }).afterClosed().subscribe(() => this.getListUsers);
+      
+  }
 }
+console.log("teste2"+ UsersService);

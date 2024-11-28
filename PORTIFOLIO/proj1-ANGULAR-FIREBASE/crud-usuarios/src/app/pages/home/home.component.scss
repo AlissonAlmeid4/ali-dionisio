@@ -60,6 +60,11 @@ li{
     align-items: center;
     border-bottom: 1px solid #dbdbdb;
     mat-icon{margin-right: 14px; font-size: 22px;}
+    &:hover{
+        background: #e6e6e6;
+        cursor: pointer;
+        color: var(--primary-color)
+    }
 }
 .location{
     padding: 0px 0px !important;

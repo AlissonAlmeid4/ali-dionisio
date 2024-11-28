@@ -16,6 +16,10 @@ export class ModalFormUserComponent {
   
   planosSaude = [
     {
+      id: 0,
+      descricao: ""
+    },
+    {
       id: 1,
       descricao: 'Plano 300 Enfermaria'
     },
@@ -30,6 +34,10 @@ export class ModalFormUserComponent {
   ];
 
   planosOdonto = [
+    {
+      id: 0,
+      descricao: ""
+    },
     {
       id: 1,
       descricao: 'Plano Basic'
@@ -61,7 +69,6 @@ export class ModalFormUserComponent {
       }
     }
 
-    // Salvar Usuario
     saveUser() {
       const objUserForm: User = this.formUser.getRawValue();
 
@@ -70,7 +77,7 @@ export class ModalFormUserComponent {
         // EDITAR USUÁRIOS
         this.userService.update(this.data.firebaseId, objUserForm).then(
           (response: any) => {
-            window.alert('Usuário Editado com sucesso');
+            // window.alert('Usuário Editado com sucesso');
             this.closeModal();
           })
           .catch(
@@ -109,14 +116,12 @@ export class ModalFormUserComponent {
         this.fillForm();
       }
     }
-
-    // Preencher formulário para edição
     fillForm() {
       this.formUser.patchValue({
-        name: this.data.name,
-        email: this.data.email,
-        sector: this.data.sector,
-        role: this.data.role,
+        name:       this.data.name,
+        email:      this.data.email,
+        sector:     this.data.sector,
+        role:       this.data.role,
         healthPlan: this.data.healthPlan,
         dentalPlan: this.data.dentalPlan,
       });
